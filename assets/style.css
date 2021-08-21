@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+.headshot, .nav-links {
+    display: flex;
+
+}
+
+.headshot {
+    flex: 1;
+}
+
+nav {
+    flex: 2;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.run-buddy {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+
+.introduction {
+    flex: 1;
+    
+}
+.intro-text h1 {
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.highlight {
+    flex: 1;
+}
+
+.highlight img {
+    height: 60vh;
+    width: 100vh;
+}
