@@ -22,7 +22,10 @@ header {
 }
 
 .headshot {
+    height: 300px;
+    width: 300;
     flex: 1;
+
 }
 
 nav {
@@ -40,7 +43,7 @@ nav {
     text-decoration: none;
 
 }
-.run-buddy {
+.portfolio {
     display: flex;
     width: 90%;
     margin: auto;
@@ -50,7 +53,6 @@ nav {
 
 .introduction {
     flex: 1;
-    
 }
 .intro-text h1 {
     font-size: 44px;
@@ -64,4 +66,9 @@ nav {
 .highlight img {
     height: 60vh;
     width: 100vh;
+}
+
+.horiseon img {
+    display: flex;
+    height: 400px;
 }
