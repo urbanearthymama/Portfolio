@@ -74,7 +74,7 @@ nav {
 }
 .horiseon img {
     display: flex;
-    height: 400px;
+    height: 500px;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -97,7 +97,9 @@ nav {
     width: 300px;
     height: auto;
 }
-
+.nav-link {
+    font-size: 15px;
+}
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 550px) {
@@ -105,4 +107,13 @@ nav {
     width: 200px;
     height: auto;
 }
+.introduction h1{
+    font-size: 25px;
+    font-weight: 400;
+}
+.nav-link {
+    font-size: 10px;
+}
+}
+
 }
