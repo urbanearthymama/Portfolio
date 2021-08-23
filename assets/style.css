@@ -21,10 +21,11 @@ header {
 
 }
 
-.headshot {
+.headshot img{
     height: 300px;
-    width: 300;
+    width: auto;
     flex: 1;
+    padding: 25px;
 
 }
 
@@ -49,6 +50,7 @@ nav {
     margin: auto;
     min-height: 80vh;
     align-items: center;
+    flex-direction: column-reverse;
 }
 
 .introduction {
@@ -64,26 +66,43 @@ nav {
 }
 
 .highlight img {
-    height: 60vh;
-    width: 100vh;
-}
+    width: 100%; 
 
+}
+.horiseon, .about, .contact {
+    padding: 100px;
+}
 .horiseon img {
     display: flex;
     height: 400px;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px){
-
+@media screen and (max-width: 850px){
+    .horiseon, .about, .contact {
+        padding: 10px;
+    }
+    .horiseon img{
+        margin: auto;
+    }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 740px) {
+.horiseon img {
+    width: 80%;
+    height: auto;
+}
+.headshot img {
+    width: 300px;
+    height: auto;
 }
 
+
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
-    
+@media screen and (max-width: 550px) {
+.headshot img {
+    width: 200px;
+    height: auto;
+}
 }
