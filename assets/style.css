@@ -76,6 +76,10 @@ nav {
     display: flex;
     height: 500px;
 }
+.coffee-connection img{
+    display: flex;
+    height: 500px;
+}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 850px){
